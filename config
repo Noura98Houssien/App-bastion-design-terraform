@@ -1,0 +1,6 @@
+Host bastion
+     Hostname 0.0.0.0/0
+     user ubuntu
+Host 10.0.*
+     ProxyJump bastion
+     user ubuntu
